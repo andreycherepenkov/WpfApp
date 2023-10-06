@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp7.Page2"
+             Title="SecondPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Список животных"  HeightRequest="20"/>
+            <ListView  x:Name="ListAnimals" HasUnevenRows="True" ItemsSource="{Binding Animals} ">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell 
+                            ImageSource="{Binding ImgPath}"
+                            Text="{Binding Title}"
+                            Detail="{Binding Description, StringFormat='{0} - Встречается в лесу'}"
+                            TextColor="red"
+                            DetailColor="Blue"
+                            />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" HeightRequest="100">
+                <Button Clicked="AddItem" Text="Добавить" />
+                <Button Clicked="RemoveItem" Text="Удалить"/>
+            </StackLayout>
+            <Button Text="Далее" Background="green" Clicked="Button_Clicked"/>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

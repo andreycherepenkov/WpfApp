@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp7.MainPage"
+             Title="FirstPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <x:Array x:Key="Animals" Type="{x:Type x:String}">
+                <x:String>Волк</x:String>
+                <x:String>Заяц</x:String>
+                <x:String>Лиса</x:String>
+                <x:String>Медведь</x:String>
+                <x:String>Олень</x:String>
+                <x:String>Лось</x:String>
+            </x:Array>
+        </ResourceDictionary>
+        </ContentPage.Resources>
+
+        <StackLayout>
+        <Label Text="Список животных"/>
+        <ListView x:Name="ListAnimals" ItemsSource="{StaticResource Key=Animals}"/>
+        <Button Text="Далее" Background="green" Clicked="Button_Clicked"/>
+    </StackLayout>
+
+</ContentPage>

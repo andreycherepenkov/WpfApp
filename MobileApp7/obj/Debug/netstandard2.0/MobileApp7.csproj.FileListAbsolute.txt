@@ -1,0 +1,17 @@
+D:\proekts\MobileApp7\MobileApp7\bin\Debug\netstandard2.0\MobileApp7.deps.json
+D:\proekts\MobileApp7\MobileApp7\bin\Debug\netstandard2.0\MobileApp7.dll
+D:\proekts\MobileApp7\MobileApp7\bin\Debug\netstandard2.0\ref\MobileApp7.dll
+D:\proekts\MobileApp7\MobileApp7\bin\Debug\netstandard2.0\MobileApp7.pdb
+D:\proekts\MobileApp7\MobileApp7\obj\Debug\netstandard2.0\MobileApp7.csproj.AssemblyReference.cache
+D:\proekts\MobileApp7\MobileApp7\obj\Debug\netstandard2.0\MobileApp7.GeneratedMSBuildEditorConfig.editorconfig
+D:\proekts\MobileApp7\MobileApp7\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\proekts\MobileApp7\MobileApp7\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\proekts\MobileApp7\MobileApp7\obj\Debug\netstandard2.0\Page2.xaml.g.cs
+D:\proekts\MobileApp7\MobileApp7\obj\Debug\netstandard2.0\Page3.xaml.g.cs
+D:\proekts\MobileApp7\MobileApp7\obj\Debug\netstandard2.0\MobileApp7.AssemblyInfoInputs.cache
+D:\proekts\MobileApp7\MobileApp7\obj\Debug\netstandard2.0\MobileApp7.AssemblyInfo.cs
+D:\proekts\MobileApp7\MobileApp7\obj\Debug\netstandard2.0\MobileApp7.csproj.CoreCompileInputs.cache
+D:\proekts\MobileApp7\MobileApp7\obj\Debug\netstandard2.0\XamlC.stamp
+D:\proekts\MobileApp7\MobileApp7\obj\Debug\netstandard2.0\MobileApp7.dll
+D:\proekts\MobileApp7\MobileApp7\obj\Debug\netstandard2.0\refint\MobileApp7.dll
+D:\proekts\MobileApp7\MobileApp7\obj\Debug\netstandard2.0\MobileApp7.pdb
